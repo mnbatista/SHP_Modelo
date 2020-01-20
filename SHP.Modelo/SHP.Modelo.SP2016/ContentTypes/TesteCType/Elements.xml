@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100F5A45A71BBCA4D179E6C492999488F7B" Name="Teste" Group="Custom Content Types" Description="Crie um teste." Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{9523A8F7-CA33-4853-8D0C-06135645470A}" DisplayName="Ordem" Name="Ordem" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

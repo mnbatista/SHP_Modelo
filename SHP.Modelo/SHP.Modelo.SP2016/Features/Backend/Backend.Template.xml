@@ -1,0 +1,3 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="Esse recurso instala as colunas, tipos de conteúdo, listas e customizações de backend necessárias para a implantação do Modelo.">
+</Feature>
