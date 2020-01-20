@@ -4,6 +4,7 @@
   <ContentType ID="0x0100F5A45A71BBCA4D179E6C492999488F7B" Name="Teste" Group="Custom Content Types" Description="Crie um teste." Inherits="TRUE" Version="0">
     <FieldRefs>
       <FieldRef ID="{9523A8F7-CA33-4853-8D0C-06135645470A}" DisplayName="Ordem" Name="Ordem" />
+      <FieldRef ID="{E18A0E5F-1040-4438-8E82-D06666533B7D}" DisplayName="Url" Name="ModelUrl" />
     </FieldRefs>
   </ContentType>
 </Elements>

@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
-  <!-- Parent ContentType: Article Page (0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D) -->
-  <ContentType ID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D009FE8D74EF5D640238D9D3299C05C1336" Name="ContentType1" Group="Custom Content Types" Description="My Content Type" Inherits="TRUE" Version="0">
-    <FieldRefs></FieldRefs>
-  </ContentType>
-</Elements>

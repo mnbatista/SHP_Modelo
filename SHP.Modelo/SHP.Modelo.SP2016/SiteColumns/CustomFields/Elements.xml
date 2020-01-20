@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <Field ID="{9523A8F7-CA33-4853-8D0C-06135645470A}" Name="Ordem" Type="Integer" DisplayName="Ordem" Group="Modelo"></Field>
+  <Field ID="{E18A0E5F-1040-4438-8E82-D06666533B7D}" Name="ModelUrl" Type="Text" MaxLength="200" DisplayName="Url" Group="Modelo"></Field>
 </Elements>

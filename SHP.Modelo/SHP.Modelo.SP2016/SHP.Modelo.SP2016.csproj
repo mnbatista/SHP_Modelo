@@ -61,9 +61,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ContentTypes\ContentType1\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{7f5ab497-cc52-4b28-b752-67e7cadcf298}</SharePointProjectItemId>
-    </None>
     <None Include="ContentTypes\TesteCType\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{cfb273ae-2bd2-4500-b77c-4ea5f0629204}</SharePointProjectItemId>
     </None>
@@ -74,12 +71,6 @@
       <FeatureId>{fec33ab9-4115-493f-8212-ebf4a743dc58}</FeatureId>
     </None>
     <None Include="key.snk" />
-    <None Include="Lists\List1\List1Instance\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{4eae1dfe-9db1-4c63-b628-465bdbb51ad2}</SharePointProjectItemId>
-    </None>
-    <None Include="Lists\List1\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{87a4c520-c367-43d5-9dc2-948f05625da7}</SharePointProjectItemId>
-    </None>
     <None Include="Lists\Teste\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{40bb6ae8-bbc4-4737-9cc3-5b74b729749f}</SharePointProjectItemId>
     </None>
@@ -102,21 +93,14 @@
     <Folder Include="Modules\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ContentTypes\ContentType1\Elements.xml" />
     <Content Include="ContentTypes\TesteCType\Elements.xml" />
     <Content Include="Features\Frontend\Frontend.Template.xml">
       <DependentUpon>Frontend.feature</DependentUpon>
     </Content>
     <Content Include="Features\Backend\Backend.Template.xml">
       <DependentUpon>Backend.feature</DependentUpon>
+      <SubType>Designer</SubType>
     </Content>
-    <Content Include="Lists\List1\EditDlg.htm" />
-    <Content Include="Lists\List1\Elements.xml" />
-    <Content Include="Lists\List1\FileDlg.htm" />
-    <Content Include="Lists\List1\List1Instance\Elements.xml" />
-    <Content Include="Lists\List1\Repair.aspx" />
-    <Content Include="Lists\List1\Schema.xml" />
-    <Content Include="Lists\List1\Upload.aspx" />
     <Content Include="Lists\Teste\Elements.xml">
       <SubType>Designer</SubType>
     </Content>
