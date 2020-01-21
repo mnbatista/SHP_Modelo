@@ -72,10 +72,10 @@
     </None>
     <None Include="key.snk" />
     <None Include="Lists\Teste\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{40bb6ae8-bbc4-4737-9cc3-5b74b729749f}</SharePointProjectItemId>
+      <SharePointProjectItemId>{408a6542-ff32-4098-ba8d-fb23fff2216a}</SharePointProjectItemId>
     </None>
     <None Include="Lists\Teste\TesteInstance\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{9fc5d2f6-b645-4ac2-b4af-2e09deba2900}</SharePointProjectItemId>
+      <SharePointProjectItemId>{38a6e0dd-2cca-42c1-8096-f633efbac966}</SharePointProjectItemId>
     </None>
     <None Include="Package\Package.package">
       <PackageId>{1534c1b4-b6fb-498b-bad6-87cce80b5a75}</PackageId>
@@ -101,12 +101,12 @@
       <DependentUpon>Backend.feature</DependentUpon>
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Lists\Teste\Elements.xml">
-      <SubType>Designer</SubType>
-    </Content>
+    <Content Include="Lists\Teste\Elements.xml" />
     <Content Include="Lists\Teste\Schema.xml" />
     <Content Include="Lists\Teste\TesteInstance\Elements.xml" />
-    <Content Include="SiteColumns\CustomFields\Elements.xml" />
+    <Content Include="SiteColumns\CustomFields\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SHP.Modelo.Core\SHP.Modelo.Core.csproj">
